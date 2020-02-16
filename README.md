@@ -1,24 +1,24 @@
 # SMath Studio-0.99.7030
 A docker image on Stable SMath Studio 0.99.7030
 
-Smath Studio is a tiny, powerful, free mathematical program with WYSIWYG editor and complete units of measurements support. 
-For more details on SMath Studio 0.99.7030 please refer the following link 
+Smath Studio is a tiny, powerful, free mathematical program with WYSIWYG editor and complete units of measurements support. For more details on SMath Studio 0.99.7030 please refer the following link
 
 https://en.smath.com/forum/
 
-First I must be thankful to the following gentalman for providing their valuble resourses and support to buid my docker reposirtory on Andrey Ivashov's SMath Studio-0.99.7030 
+First I must be thankful to the following gentalman for providing their valuable resources and support to build my docker repository on Andrey Ivashov's SMath Studio-0.99.7030
 
 Andrey Ivashov - Owner of Studio-0.99.7030
 
-Kyle Anderson - Owner of   solarkennedy/wine-x11-novnc-docker ( I have forked his ripository to buid my repository )
+Kyle Anderson - Owner of solarkennedy/wine-x11-novnc-docker ( I have forked his ripository to buid my repository )
 
-Nicolas SAPA - A main conributer to solarkennedy/wine-x11-novnc-docker 
+Nicolas SAPA - A main https://hub.docker.com/repository/docker/bkjaya1952/smath-studio to solarkennedy/wine-x11-novnc-docker
 
 Usage :-
 
 To create a smath container (name smath) using bkjaya1952/smathstudio
 
 Refer:- https://hub.docker.com/repository/docker/bkjaya1952/smath-studio
+
 On the Ubuntu terminal
 
 <code>sudo docker create -t -p 8008:8080 --name smath bkjaya1952/smath-studio</code>
