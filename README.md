@@ -11,7 +11,7 @@ Andrey Ivashov - Owner of Studio-0.99.7030
 
 Kyle Anderson - Owner of solarkennedy/wine-x11-novnc-docker ( I have forked his ripository to buid my repository )
 
-Nicolas SAPA - A main https://hub.docker.com/repository/docker/bkjaya1952/smath-studio to solarkennedy/wine-x11-novnc-docker
+Nicolas SAPA - A main contributer to  https://hub.docker.com/repository/docker/bkjaya1952/smath-studio to solarkennedy/wine-x11-novnc-docker
 
 Usage :-
 
