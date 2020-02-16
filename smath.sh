@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /smath
+cd ~/smath
 ./smathstudio_desktop_mono
