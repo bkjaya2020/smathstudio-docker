@@ -6,7 +6,7 @@ For more details on SMath Studio 0.99.7030 please refer the following link
 
 https://en.smath.com/forum/
 
-First I must be thankful to the following gentalman for prviding their valuble resourses and support to buid my docker reposirtory on Andrey Ivashov's SMath Studio-0.99.7030 
+First I must be thankful to the following gentalman for providing their valuble resourses and support to buid my docker reposirtory on Andrey Ivashov's SMath Studio-0.99.7030 
 
 Andrey Ivashov - Owner of Studio-0.99.7030
 
