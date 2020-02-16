@@ -23,7 +23,7 @@ https://hub.docker.com/repository/docker/bkjaya1952/smath-studio
 
 On the Ubuntu terminal
 
-<code>sudo docker create -t -p 8008:8080 --name smath bkjaya1952/smathstudio</code>
+<code>sudo docker create -t -p 8008:8080 --name smath bkjaya1952/smath-studio</code>
 
 <code>sudo docker start smath<code>
 
