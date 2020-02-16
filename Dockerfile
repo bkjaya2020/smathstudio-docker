@@ -15,7 +15,7 @@ RUN apt install -y xfce4-terminal \
     && apt install -y tzdata \
     && apt install -y vim \
     && apt install -y mono-complete \
-    && apt install unzip \
+    && apt install -y unzip \
     && apt -y autoremove
 COPY smath.zip /smath.zip
 RUN unzip smath.zip
