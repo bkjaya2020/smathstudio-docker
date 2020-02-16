@@ -18,7 +18,7 @@ RUN apt install -y xfce4-terminal \
     && apt install -y unzip \
     && apt -y autoremove
 COPY smath.zip /smath.zip
-RUN unzip /smath.zip
+RUN unzip smath.zip
 COPY bash.bashrc /etc/bash.bashrc
 COPY smath.sh /usr/bin/smath.sh
 RUN chmod 777 /usr/bin/smath.sh
