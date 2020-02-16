@@ -18,9 +18,7 @@ Usage :-
 
 To create a smath container (name smath) using bkjaya1952/smathstudio
 
-Refer:- https://hub.docker.com/r/bkjaya1952/docker-ivms4200-linux
-https://hub.docker.com/repository/docker/bkjaya1952/smath-studio
-
+Refer:- https://hub.docker.com/repository/docker/bkjaya1952/smath-studio
 On the Ubuntu terminal
 
 <code>sudo docker create -t -p 8008:8080 --name smath bkjaya1952/smath-studio</code>
