@@ -21,7 +21,9 @@ COPY smath.zip /smath.zip
 RUN unzip /smath.zip
 COPY bash.bashrc /etc/bash.bashrc
 COPY smath.sh /usr/bin/smath.sh
+RUN chmod 777 /usr/bin/smath.sh
 RUN unlink /etc/localtime
+RUN rm /smath.zip
 EXPOSE 8080
 CMD ["/usr/bin/supervisord"]
 
