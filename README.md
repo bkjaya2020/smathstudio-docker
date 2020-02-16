@@ -15,12 +15,13 @@ To create a smath container (name smath) using bkjaya1952/smathstudio
 
 Refer:- https://hub.docker.com/r/bkjaya1952/docker-ivms4200-linux
 https://hub.docker.com/repository/docker/bkjaya1952/smath-studio
+
 On the Ubuntu terminal
 
-sudo docker create -t -p 8008:8080 --name smath bkjaya1952/smathstudio
-sudo docker start ivms
+<code>sudo docker create -t -p 8008:8080 --name smath bkjaya1952/smathstudio</code>
+<code>sudo docker start smath<code>
 
-xdg-open http://localhost:8008
+<code>xdg-open http://localhost:8008</code>
 
 Then the desktop will appear on the web browser
 
@@ -30,9 +31,15 @@ On the desktop, right click the mouse to get the fluxbox menu
 
 <img src="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/menu2.png" alt="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/menu2.png" width="625" height="520">
 
+To get the SMath Studio panel
+
 On the menu go to sub menus and ckick Applications>Shells>Bash
 
-Now the get the SMath Studio panel
+There is an enother option
+
+On The menu go to sub menus and click Applications>Programming>Monodoc(http)
+
+
 
 <img src="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/Screenshot%20from%202020-02-16%2010-25-36.png" alt="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/Screenshot%20from%202020-02-16%2010-25-36.png" width="625" height="520">
 
@@ -42,7 +49,7 @@ After quitting the ivms4200
 
 On the terminal enter
 
-vim /etc/timezone
+<code>vim /etc/timezone</code>
 
 Then the timezone file is opened
 
