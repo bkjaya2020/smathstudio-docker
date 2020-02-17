@@ -1,4 +1,4 @@
-# SMath Studio-0.99.7030
+# Docker image of SMath Studio
 A docker image based on Stable SMath Studio 0.99.7030
 
 Smath Studio is a tiny, powerful, free mathematical program with WYSIWYG editor and complete units of measurements support. For more details on SMath Studio 0.99.7030 please refer the following link
