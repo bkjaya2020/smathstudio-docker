@@ -10,20 +10,24 @@ FROM  solarkennedy/wine-x11-novnc-docker
 MAINTAINER B.K.Jayasundera
 ENV HOME /root
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt update 
-RUN apt install -y xfce4-terminal \
-    && apt install -y tzdata \
-    && apt install -y vim \
+RUN apt purge -y winehq-stable \
+    && apt -y autoremove \
+    && rm -rf /opt/wine-stable/share/wine/mono \
+    && rm -rf /opt/wine-stable/share/wine/gecko \
+    && apt update \ 
+    && apt -y --no-install-recommends install \
+    && apt install -y xfce4-terminal \
+    && apt install -y tzdata \   
     && apt install -y mono-complete \
     && apt install -y unzip \
     && apt -y autoremove
+ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY smath.zip /smath.zip
 RUN unzip /smath.zip
-RUN rm /smath.zip
 COPY bash.bashrc /etc/bash.bashrc
 COPY smath.sh /usr/bin/smath.sh
-RUN chmod 777 /usr/bin/smath.sh
-RUN unlink /etc/localtime
+RUN chmod 777 /usr/bin/smath.sh \
+    && unlink /etc/localtime
 EXPOSE 8080
 CMD ["/usr/bin/supervisord"]
 
