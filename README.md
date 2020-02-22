@@ -1,4 +1,4 @@
-# Docker image of SMath Studio pre installed
+# Docker image of SMath Studio pre-installed
 
 A docker image installed with Stable SMath Studio 0.99.7030
 
