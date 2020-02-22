@@ -50,7 +50,7 @@ On The menu go to sub menus and click Applications>Programming>Monodoc(http)
 
 How to change the timezone
 
-After quitting the ivms4200
+After quitting the smathstudio
 
 On the terminal enter
 
