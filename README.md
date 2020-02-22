@@ -1,5 +1,6 @@
-# Docker image of SMath Studio
-A docker image based on Stable SMath Studio 0.99.7030
+# Docker image of SMath Studio pre installed
+
+A docker image installed with Stable SMath Studio 0.99.7030
 
 Smath Studio is a tiny, powerful, free mathematical program with WYSIWYG editor and complete units of measurements support. For more details on SMath Studio 0.99.7030 please refer the following link
 
@@ -18,6 +19,7 @@ Usage :-
 To create a smath container (name smath) using bkjaya1952/smathstudio
 
 Refer:- https://hub.docker.com/r/bkjaya1952/smathstudio-docker
+
 On the Ubuntu terminal
 
 <code>sudo docker create -t -p 8008:8080 --name smath bkjaya1952/smathstudio-docker</code>
@@ -26,7 +28,11 @@ On the Ubuntu terminal
 
 <code>xdg-open http://localhost:8008</code>
 
-Then the desktop will appear on the web browser
+Then the SMath Studio desktop will appear on the web browser at the startup.
+
+<img src="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/Screenshot%20from%202020-02-16%2010-25-36.png" alt="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/Screenshot%20from%202020-02-16%2010-25-36.png" width="625" height="520">
+
+If you want to get the SMath Studio desktop after cosing it please follow the following steps
 
 On the desktop, right click the mouse to get the fluxbox menu
 
@@ -41,10 +47,6 @@ On the menu go to sub menus and ckick Applications>Shells>Bash
 There is an enother option
 
 On The menu go to sub menus and click Applications>Programming>Monodoc(http)
-
-
-
-<img src="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/Screenshot%20from%202020-02-16%2010-25-36.png" alt="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/Screenshot%20from%202020-02-16%2010-25-36.png" width="625" height="520">
 
 How to change the timezone
 
