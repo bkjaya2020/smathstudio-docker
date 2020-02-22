@@ -32,7 +32,7 @@ Then the SMath Studio desktop will appear on the web browser at the startup.
 
 <img src="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/Screenshot%20from%202020-02-16%2010-25-36.png" alt="https://raw.githubusercontent.com/bkjaya2020/smathstudio/master/Screenshot%20from%202020-02-16%2010-25-36.png" width="625" height="520">
 
-If you want to get the SMath Studio desktop after cosing it please follow the following steps
+If you want to get the SMath Studio desktop after closing it please follow the following steps
 
 On the desktop, right click the mouse to get the fluxbox menu
 
