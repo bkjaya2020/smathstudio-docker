@@ -15,15 +15,13 @@ RUN apt purge -y winehq-stable \
     && rm -rf /opt/wine-stable/share/wine/mono \
     && rm -rf /opt/wine-stable/share/wine/gecko \
     && apt update \ 
-    && apt -y --no-install-recommends install \
-    && apt install -y xfce4-terminal \
-    && apt install -y tzdata \   
-    && apt install -y mono-complete \
-    && apt install -y unzip \
+    && apt -y --no-install-recommends install xfce4-terminal tzdata  mono-complete unzip \
+    && rm -rf /var/lib/apt/lists/* \
     && apt -y autoremove
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY smath.zip /smath.zip
-RUN unzip /smath.zip
+RUN unzip /smath.zip \
+    && apt -y purge unzip
 COPY bash.bashrc /etc/bash.bashrc
 COPY smath.sh /usr/bin/smath.sh
 RUN chmod 777 /usr/bin/smath.sh \
