@@ -22,7 +22,7 @@ Refer:- https://hub.docker.com/r/bkjaya1952/smathstudio-docker
 
 On the Ubuntu terminal
 
-<code>sudo docker create -t -p 8008:8080 --name smath b--privileged=true kjaya1952/smathstudio-docker</code>
+<code>sudo docker create -t -p 8008:8080 --name smath --privileged=true kjaya1952/smathstudio-docker</code>
 
 <code>sudo docker start smath<code>
 
