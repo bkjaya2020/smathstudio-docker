@@ -24,7 +24,7 @@ On the Ubuntu terminal
 
 <code>sudo docker create -t -p 8008:8080 --name smath --privileged=true bkjaya1952/smathstudio-docker</code>
 
-<code>sudo docker start smath<code>
+<code>sudo docker start smath</code>
 
 <code>xdg-open http://localhost:8008</code>
 
